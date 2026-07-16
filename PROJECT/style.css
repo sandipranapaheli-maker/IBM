@@ -1,0 +1,94 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width:100%;
+    min-height: 100vh;
+    background: #bcb7d1;
+    /* background-image:url(./veg.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+ 
+header{
+    height: 60px;
+    width: 100%;
+    background: rgb(17, 16, 16)
+    color(srgb red rgb(80, 136, 80) blue)
+    display: flex;
+    align-items:center;
+    
+
+}
+.container{
+    width:0 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.logo{
+    font-size: 25px;
+
+
+}
+.hero+{
+    width:100%;
+    height: auto;
+    
+    text-align: center;
+    padding: 140px 0;
+
+}
+.hero p{
+    font-size:20px;
+    margin-bottom: 10x;+
+
+}
+
+.search-box{
+    max-width: 550px; 
+    margin:15px auto;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.search-box input{
+    width: 70px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    border: 1px solid rgb(110, 96, 96);
+}
+
+.search-box button{
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1rem;
+    background-color: rgb(107, 84, 84);
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+
