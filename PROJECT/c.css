@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #ff6b6b;
+    --secondary: #d63031;
+    --dark: #2d3436;
+    --light: #f8f9fa;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: var(--light);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.back-button-container {
+    background: var(--white);
+    padding: 1rem 0;
+    border-bottom: 2px solid var(--light);
+}
+
+.back-to-home {
+    display: inline-block;
+    margin-left: 20px;
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.back-to-home:hover {
+    background: var(--primary);
+    color: var(--white);
+    transform: translateX(-3px);
+}
+
+
+.header {
+    background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+    color: var(--white);
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+.hero {
+    background: linear-gradient(135deg, #ff8c8c 0%, #ff6b6b 100%);
+    color: var(--white);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+}
+
+
+section {
+    background: var(--white);
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    border-bottom: 3px solid var(--primary);
+    padding-bottom: 0.5rem;
+}
+
+ul, ol {
+    margin-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.8rem;
+    color: #555;
+}
+
+strong {
+    background: #ffe5e5;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    color: var(--secondary);
+}
+
+
+.footer {
+    background: var(--dark);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .back-to-home {
+        margin-left: 10px;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}
